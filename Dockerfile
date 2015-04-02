@@ -1,2 +1,3 @@
 FROM ubuntu
-RUN apt-get install -y python-dev
+RUN apt-get update -y
+RUN apt-get install -y python-pip
